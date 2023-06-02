@@ -1,0 +1,103 @@
+body{
+    background-color: black;
+    color: wheat;
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+    
+}
+ ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: purple;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align:center;
+    padding: 014px 015px;
+    text-decoration: none;
+    margin: 50px 50px 50px 0px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: gray;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+h1{
+    color: purple;
+    margin-left: 50px;
+}
+.heading{
+    padding-top: 50px;
+    padding-left: 60%;
+    padding-bottom: 50px;
+
+}
+.card {
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 20px 20px 20px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    font-family: arial;
+    background-color: purple;
+    border-radius: 10%;
+    display:inline-table;
+    word-break: normal;
+
+  }
+.projects{
+    margin-left: 80px;
+}
+.recommendation{
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    text-decoration: none;
+
+
+}
+.input{
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 5px 250px 5px 250px;
+
+    
+
+}
+#btn{
+    margin-top: 20px;
+    background-color: purple;
+    padding: 8px;
+}
+.message{
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 150px 250px 150px 250px;
+
+}
+.name{
+    float: left;
+    color: white;
+    font-size: larger ;
+    padding: 20px 20px 20px 20px;
+    margin-top: 40px;
+    display:list-item;
+
+}
